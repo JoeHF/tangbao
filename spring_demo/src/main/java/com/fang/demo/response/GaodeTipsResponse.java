@@ -9,9 +9,6 @@ import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @lombok.Getter
-public class GaodeTipsResponse {
-    String status;
-    String info;
-    int count;
+public class GaodeTipsResponse extends GaodeBaseResponse {
     List<GaodeTipsItem> tips;
 }

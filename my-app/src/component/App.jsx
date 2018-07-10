@@ -11,9 +11,7 @@ import Gaode from './gaode/Gaode';
 import {
   BrowserRouter as Router,
   Route,
-  Link,
-  Switch,
-  Redirect
+  Link
 } from 'react-router-dom'
 
 class App extends Component {
